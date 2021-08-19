@@ -1,0 +1,27 @@
+.countries {
+    &__wrapper {
+        display: grid;
+        grid-auto-flow:column;
+    }
+    &__items {
+        display: grid;
+        margin: 20px auto 20px 0;
+        grid-auto-flow:column;
+    }
+    &__flag {
+        padding-right: 10px;
+    }
+    &__phone, &__email {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    &__name {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #242424;
+    }
+    
+    
+}
