@@ -1,0 +1,29 @@
+.with-prengi {
+    margin-top: 75px;
+    margin-bottom: 80px;
+    &__box-item {
+        display: grid;
+    }
+    &__questions {
+        display: grid;
+        grid-template-columns: 360px 360px 360px;
+        grid-template-rows: auto;
+        justify-content: space-between;
+    }
+    &__answers {
+        display: grid;
+        grid-template-columns: 360px 360px 360px;
+        grid-template-rows: auto;
+        justify-content: space-between;
+    }
+    &__wrapper {
+        right: 50px;
+    }
+    &__text {
+        background: url(../img/with_prengi/ok.png)  no-repeat right;
+        padding: 10px 90px 30px 90px;
+    }
+    &__photo {
+        text-align: center;
+    }
+}
