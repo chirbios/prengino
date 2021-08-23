@@ -1,0 +1,46 @@
+.footer {
+    background: url(../img/bg_footer.jpg) no-repeat 100%/cover;
+    &__items {
+        display: grid;
+        grid-template-columns: 380px 265px 120px auto;
+
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        justify-content: space-between;
+    }
+    &__subheader {
+        padding-top: 50px;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &__end {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 19px;
+
+    }
+    &__logo {
+        padding-top: 20px;
+    }
+    &__divider {
+        border-top: 1px solid #fff;
+    }
+    &__lorem {
+        padding-top: 20px;
+    }
+    &__text_bottom {
+        padding-bottom: 45px;
+    }
+}

@@ -1,0 +1,20 @@
+.decisions {
+    background: url(../img/bg_products.jpg) no-repeat 100%/cover;
+    height: 889px;
+    &__title {
+        text-align: center;
+        padding-top: 80px;
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 900;
+        color: #ffffff;
+    }
+    &__nav {
+        display: flex;
+        justify-content: center;
+    }
+    &__divider {
+        border-left: 1px solid #fff;
+        height: 500px;
+    }
+}
