@@ -3,14 +3,16 @@
     margin-bottom: 80px;
     &__box-item {
         display: grid;
+        grid-template-rows: 155px 100px;
     }
     &__questions {
         display: grid;
         grid-template-columns: 360px 360px 360px;
-        grid-template-rows: auto;
+        grid-template-rows: 255px;
         justify-content: space-between;
     }
     &__answers {
+        padding-top: 37px;
         display: grid;
         grid-template-columns: 360px 360px 360px;
         grid-template-rows: auto;
@@ -21,9 +23,27 @@
     }
     &__text {
         background: url(../img/with_prengi/ok.png)  no-repeat right;
-        padding: 10px 90px 30px 90px;
+        padding: 20px 50px 30px 30px;
+        text-align: center;
     }
     &__photo {
         text-align: center;
+    }
+    &__dividers {
+        padding-top: 50px;
+        text-align: center;
+    }
+    &__with {
+        text-align: center;
+        font-size: 48px;
+        line-height: 30px;
+        font-weight: 700;
+        color: #393939;
+    }
+    &__bold {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+        color: #393939;
     }
 }
