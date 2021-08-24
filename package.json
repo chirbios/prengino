@@ -24,5 +24,10 @@
     "> 1%",
     "maintained node versions",
     "not dead"
-  ]
+  ],
+  "dependencies": {
+    "@splidejs/splide": "^2.4.21",
+    "swiper": "^6.8.4",
+    "tiny-slider": "^2.9.3"
+  }
 }

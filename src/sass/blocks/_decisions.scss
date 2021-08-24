@@ -1,20 +1,66 @@
 .decisions {
+    position: relative;
     background: url(../img/bg_products.jpg) no-repeat 100%/cover;
     height: 889px;
     &__title {
         text-align: center;
         padding-top: 80px;
+        padding-bottom: 25px;
         font-size: 30px;
         line-height: 35px;
         font-weight: 900;
         color: #ffffff;
     }
     &__nav {
+        margin: 0 auto;
+        
+        text-align: center;
+        align-items: center;
+        width: 840px;
         display: flex;
         justify-content: center;
+        column-gap: 30px;
+        border: 2px solid #fff; /* Параметры границы *//* Цвет фона */
+        padding: 10px; 
+        border-radius: 5px;
+        a {
+            outline: none;
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+            line-height: 25px;
+            font-weight: 400;
+        }
     }
     &__divider {
         border-left: 1px solid #fff;
-        height: 500px;
+        height: 50px;
+    }
+    .slick-list {
+        overflow: hidden;
+    }
+    .slick-track {
+        display: flex;
+    }
+    .slider {
+        position: relative;
+    }
+    
+    .slider .slick-arrow {
+        position: absolute;
+        top: 50%;
+        z-index: 10;
+        font-size: 0;
+        width: 30px;
+        height: 50px;
+    }
+    
+    .slider .slick-arrow.slick-prev {
+        left: 0;
+        background: url(../../icons/left.jpg) 0 0 / 100% no-repeat;
+    }
+    .slider .slick-arrow.slick-next {
+        right: 0;
+        background: url(../../icons/right.jpg) 0 0 / 100% no-repeat;
     }
 }
